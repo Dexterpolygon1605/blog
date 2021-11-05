@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './Components/Navigation/Navigation';
+import Banner from './Components/Banner/Banner'
 import Particles from "react-tsparticles";
 import './App.css';
 
@@ -545,10 +546,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Particles className='particles'
-          options={particlesOptions}
-        />
+        <Particles className='particles' options={particlesOptions} />
         <Navigation />
+        <Banner />
       </div>
     );
   }
