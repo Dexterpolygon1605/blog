@@ -2,10 +2,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(46, 49, 49, 0.5);
-    box-shadow: 0 0 20px white;
+    background-color: rgba(46, 49, 49, 0);
     min-width: 25%;
     max-height: 90%;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+    font-family: 'Fruktur', cursive;
 }

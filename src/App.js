@@ -4,18 +4,18 @@ import Banner from './Components/Banner/Banner'
 import Particles from "react-tsparticles";
 import './App.css';
 
-const particlesOptions = {
-
+const particlesOptions =
+{
   "autoPlay": true,
   "background": {
     "color": {
-      "value": ""
+      "value": "#000000"
     },
     "image": "",
     "position": "",
     "repeat": "",
     "size": "",
-    "opacity": 0.5
+    "opacity": 1
   },
   "backgroundMask": {
     "composite": "destination-out",
@@ -33,13 +33,13 @@ const particlesOptions = {
   },
   "detectRetina": true,
   "duration": 0,
-  "fpsLimit": 60,
+  "fpsLimit": 120,
   "interactivity": {
     "detectsOn": "window",
     "events": {
       "onClick": {
-        "enable": false,
-        "mode": "repulse"
+        "enable": true,
+        "mode": "push"
       },
       "onDiv": {
         "selectors": [],
@@ -48,8 +48,8 @@ const particlesOptions = {
         "type": "circle"
       },
       "onHover": {
-        "enable": false,
-        "mode": "grab",
+        "enable": true,
+        "mode": "repulse",
         "parallax": {
           "enable": false,
           "force": 2,
@@ -71,11 +71,9 @@ const particlesOptions = {
         "distance": 200
       },
       "bubble": {
-        "distance": 400,
-        "duration": 2,
-        "mix": false,
-        "opacity": 8,
-        "size": 40
+        "distance": 200,
+        "duration": 0.4,
+        "mix": false
       },
       "connect": {
         "distance": 80,
@@ -85,7 +83,7 @@ const particlesOptions = {
         "radius": 60
       },
       "grab": {
-        "distance": 200,
+        "distance": 100,
         "links": {
           "blink": false,
           "consent": false,
@@ -188,19 +186,13 @@ const particlesOptions = {
       }
     },
     "color": {
-      "value": [
-        "#5bc0eb",
-        "#fde74c",
-        "#9bc53d",
-        "#e55934",
-        "#fa7921"
-      ],
+      "value": "#ff0000",
       "animation": {
         "h": {
           "count": 0,
-          "enable": false,
+          "enable": true,
           "offset": 0,
-          "speed": 1,
+          "speed": 20,
           "sync": true
         },
         "s": {
@@ -270,8 +262,8 @@ const particlesOptions = {
         "value": "#ffffff"
       },
       "consent": false,
-      "distance": 150,
-      "enable": false,
+      "distance": 100,
+      "enable": true,
       "frequency": 1,
       "opacity": 0.4,
       "shadow": {
@@ -283,7 +275,7 @@ const particlesOptions = {
       },
       "triangles": {
         "enable": false,
-        "frequency": 1
+        "frequency": 3
       },
       "width": 1,
       "warp": false
@@ -297,8 +289,8 @@ const particlesOptions = {
         "distance": 200,
         "enable": false,
         "rotate": {
-          "x": 600,
-          "y": 1200
+          "x": 3000,
+          "y": 3000
         }
       },
       "decay": 0,
@@ -319,29 +311,29 @@ const particlesOptions = {
             "enable": false,
             "minimumValue": 0
           },
-          "value": 0.1
+          "value": 0
         },
-        "enable": true,
+        "enable": false,
         "options": {}
       },
       "outModes": {
-        "default": "destroy",
-        "bottom": "destroy",
-        "left": "destroy",
-        "right": "destroy",
-        "top": "destroy"
+        "default": "out",
+        "bottom": "out",
+        "left": "out",
+        "right": "out",
+        "top": "out"
       },
       "random": false,
       "size": false,
-      "speed": 4,
+      "speed": 6,
       "spin": {
         "acceleration": 0,
         "enable": false
       },
       "straight": false,
       "trail": {
-        "enable": true,
-        "length": 20,
+        "enable": false,
+        "length": 10,
         "fillColor": {
           "value": "#000000"
         }
@@ -351,12 +343,12 @@ const particlesOptions = {
     },
     "number": {
       "density": {
-        "enable": false,
+        "enable": true,
         "area": 800,
         "factor": 1000
       },
       "limit": 0,
-      "value": 0
+      "value": 90
     },
     "opacity": {
       "random": {
@@ -367,11 +359,10 @@ const particlesOptions = {
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": 1,
+        "speed": 2,
         "sync": false,
         "destroy": "none",
-        "startValue": "random",
-        "minimumValue": 0.1
+        "startValue": "random"
       }
     },
     "orbit": {
@@ -449,21 +440,20 @@ const particlesOptions = {
     },
     "size": {
       "random": {
-        "enable": true,
-        "minimumValue": 4
+        "enable": false,
+        "minimumValue": 1
       },
       "value": {
-        "min": 4,
-        "max": 7
+        "min": 0.1,
+        "max": 3
       },
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": 40,
+        "speed": 5,
         "sync": false,
         "destroy": "none",
-        "startValue": "random",
-        "minimumValue": 0.1
+        "startValue": "random"
       }
     },
     "stroke": {
@@ -511,35 +501,14 @@ const particlesOptions = {
       "velocityRate": 1
     }
   },
-  "pauseOnBlur": false,
+  "pauseOnBlur": true,
   "pauseOnOutsideViewport": true,
   "responsive": [],
   "themes": [],
-  "zLayers": 100,
-  "emitters": {
-    "autoPlay": true,
-    "fill": true,
-    "life": {
-      "wait": false
-    },
-    "rate": {
-      "quantity": 1,
-      "delay": 0.1
-    },
-    "shape": "square",
-    "startCount": 0,
-    "size": {
-      "mode": "precise",
-      "height": 50,
-      "width": 50
-    },
-    "position": {
-      "x": 50,
-      "y": 50
-    }
-  }
+  "zLayers": 100
 }
- 
+
+
 
 
 class App extends Component {
