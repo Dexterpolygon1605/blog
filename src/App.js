@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './Components/Navigation/Navigation';
-import Banner from './Components/Banner/Banner'
+import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer'
 import Particles from "react-tsparticles";
 import './App.css';
 
@@ -38,7 +39,7 @@ const particlesOptions =
     "detectsOn": "window",
     "events": {
       "onClick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "onDiv": {
@@ -518,6 +519,7 @@ class App extends Component {
         <Particles className='particles' options={particlesOptions} />
         <Navigation />
         <Banner />
+        <Footer />
       </div>
     );
   }
