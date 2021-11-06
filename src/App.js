@@ -349,7 +349,7 @@ const particlesOptions =
         "factor": 1000
       },
       "limit": 0,
-      "value": 90
+      "value": 50
     },
     "opacity": {
       "random": {
