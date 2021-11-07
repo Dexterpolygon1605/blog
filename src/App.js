@@ -510,7 +510,7 @@ const particlesOptions =
   "zLayers": 100
 }
 
- 
+
 const initialState = {
   route: 'homepage',
   inProjects: false
@@ -522,30 +522,30 @@ class App extends Component {
     this.state = initialState
   }
 
- 
-onRouteChange = (route) => {
-  if (route === 'homepage') {
-    this.setState(initialState)
-  } else if (route === 'projects') {
-    this.setState({ inProjects: true })
+
+  onRouteChange = (route) => {
+    if (route === 'homepage') {
+      this.setState(initialState)
+    } else if (route === 'projects') {
+      this.setState({ inProjects: true })
+    }
+    this.setState({ route: route });
   }
-  this.setState({ route: route });
-}
 
 
   render() {
-    const { inProjects, route} = this.state;
+    const { inProjects, route } = this.state;
     return (
       <div className="App">
         <Particles className='particles' options={particlesOptions} />
-        <Navigation inProjects={inProjects} onRouteChange={this.onRouteChange}/>
+        <Navigation inProjects={inProjects} onRouteChange={this.onRouteChange} />
         <Footer />
 
         {route === 'homepage'
-        ?
-        <Banner inProjects={inProjects} onRouteChange={this.onRouteChange}/>
-        :
-        <Projects inProjects={inProjects} onRouteChange={this.onRouteChange}/>
+          ?
+          <Banner inProjects={inProjects} onRouteChange={this.onRouteChange} />
+          :
+          <Projects inProjects={inProjects} onRouteChange={this.onRouteChange} />
         }
       </div>
     );
