@@ -5,7 +5,7 @@ import homepage from './homepage.png'
 class Projects extends React.Component {
     render() {
         return (
-            <div className="tc mt6 mt6-ns">
+            <div className="tc mt6 mt6-ns mb6">
                 <article class="bg-white tc dib br3 pa0 ma2 grow bw2 shadow-5 mw5 mw6-ns mw5-m">
                     <div class="pv2 ph3">
                         <h1 class="f6 ttu tracked">SmartBrain</h1>
