@@ -44,7 +44,7 @@ class Projects extends Component {
                         <a href="https://smartbrainnl.herokuapp.com/" target="blank"> <img src={homepage} class="w-100 db br3 shadow-2 grow" alt="Smartbrain" /> </a>
                         :
                         <p className="desc tl w-70 center" onClick={() => this.onContentChange('picture')} >
-                            This website can detect faces in pictures with a API, it also has the sign in and register functions, which works with a server and database, so if you register
+                            This website can detect faces in pictures with a API, it also has the sign in and register functions, which works with a secure server and database, so if you register
                             you'll be able to sign in right away. The database will store how many times you detected a face in a picture, so if you entry an image that doesn't have a face, it
                             doesn't store that try.
                             Made with: <b className="light-blue">HTML5, CSS3, JavaScript(React), Node.js, PostgresSQL, Git bash and Heroku. </b> </p>
