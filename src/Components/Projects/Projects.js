@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import homepage from './homepage.png'
-import rpage from './rpage.png'
-import prpage from './prpage.png'
+import homepage from './imgs/homepage.png'
+import rpage from './imgs/rpage.png'
+import prpage from './imgs/prpage.png'
 
 
 const contentState = {
@@ -33,9 +33,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue ">SmartBrain</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tl f6 white grow pointer">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tl f6 white grow pointer">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
                         }
                     </div>
 
@@ -60,9 +60,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue">RobotFriends</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tl f6 white grow pointer">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tl f6 white grow pointer">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
                         }
                     </div>
 
@@ -85,9 +85,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue">PortoRequintado</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tl f6 white grow pointer">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tl f6 white grow pointer">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
                         }
                     </div>
 

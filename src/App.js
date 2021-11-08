@@ -542,11 +542,10 @@ class App extends Component {
         <Footer />
 
         {route === 'homepage'
-          ?
-          <Banner inProjects={inProjects} onRouteChange={this.onRouteChange} />
-          :
-          <Projects inProjects={inProjects} onRouteChange={this.onRouteChange} />
+          ? <Banner inProjects={inProjects} onRouteChange={this.onRouteChange} />
+          : <Projects inProjects={inProjects} onRouteChange={this.onRouteChange} />
         }
+
       </div>
     );
   }
