@@ -51,7 +51,7 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://smartbrainnl.herokuapp.com/" class="pointer light-blue link dim lh-title" target="blank">Published</a>
+                        <a href="https://smartbrainnl.herokuapp.com/" class="pointer light-blue link dim lh-title" target="blank">Published 2021</a>
                         <p className="white"> React Project </p>
                     </div>
                 </article>
@@ -76,7 +76,7 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://dexterpolygon1605.github.io/robotfriends/" class="pointer light-blue link dim lh-title" target="blank">Published</a>
+                        <a href="https://dexterpolygon1605.github.io/robotfriends/" class="pointer light-blue link dim lh-title" target="blank">Published 2021</a>
                         <p className="white"> React Project </p>
                     </div>
                 </article>
@@ -104,7 +104,7 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://portorequintado.netlify.app/" class="pointer light-blue link dim lh-title" target="blank">Published</a>
+                        <a href="https://portorequintado.netlify.app/" class="pointer light-blue link dim lh-title" target="blank">Published 2020</a>
                         <p className="white"> Website Project </p>
                     </div>
                 </article>
