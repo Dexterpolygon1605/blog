@@ -99,6 +99,7 @@ class Projects extends Component {
                             This is a website that I made in group for internship and I was the one who writed all the code. It was proposed to have a public target
                             and we choose the more exquisite people that visit Porto.
                             The project is not finished, it was our first complex project.
+                            It is not full mobile responsive.
                             Made with: <b className="light-blue">HTML5, CSS3, JavaScript</b> </p>
                     }
 
