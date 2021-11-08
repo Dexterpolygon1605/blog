@@ -16,7 +16,7 @@ class Banner extends React.Component {
                         Here's where I showcase my projects
                     </h2>
                     <div>
-                        <p onClick={() => onRouteChange('projects')} class="shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow">
+                        <p onClick={() => onRouteChange('projects')} class="pointer shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow">
                             View my Projects
                         </p>
                     </div>

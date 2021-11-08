@@ -533,8 +533,8 @@ class App extends Component {
   }
 
 
-  render() {
-    const { inProjects, route } = this.state;
+    render() {
+      const { inProjects, route } = this.state;
     return (
       <div className="App">
         <Particles className='particles' options={particlesOptions} />
