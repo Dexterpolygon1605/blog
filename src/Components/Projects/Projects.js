@@ -35,7 +35,7 @@ class Projects extends Component {
                             ?
                             <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image</h1>
                         }
                     </div>
 
@@ -62,7 +62,7 @@ class Projects extends Component {
                             ?
                             <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image</h1>
                         }
                     </div>
 
@@ -87,7 +87,7 @@ class Projects extends Component {
                             ?
                             <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image</h1>
                         }
                     </div>
 
