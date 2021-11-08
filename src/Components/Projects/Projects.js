@@ -28,7 +28,7 @@ class Projects extends Component {
         const { inImage, change } = this.state;
         return (
             <div inImage={inImage} className="tc mt6 mt6-ns mb6">
-                <article class="bg-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
+                <article class="bg-dark-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                     <div class="pv2 ph3">
                         <h1 class="f3 f2-ns f3-m tracked light-blue ">SmartBrain</h1>
                         {change === 'picture'
@@ -51,11 +51,11 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://smartbrainnl.herokuapp.com/" class="pointer light-blue link dim lh-title" target="blank">Published 2021</a>
+                        <a href="https://smartbrainnl.herokuapp.com/" class="pointer light-blue link dim lh-title" target="blank">Online - Published 2021</a>
                         <p className="white"> React Project </p>
                     </div>
                 </article>
-                <article class="bg-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
+                <article class="bg-dark-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                     <div class="pv2 ph3">
                         <h1 class="f3 f2-ns f3-m tracked light-blue">RobotFriends</h1>
                         {change === 'picture'
@@ -76,11 +76,11 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://dexterpolygon1605.github.io/robotfriends/" class="pointer light-blue link dim lh-title" target="blank">Published 2021</a>
+                        <a href="https://dexterpolygon1605.github.io/robotfriends/" class="pointer light-blue link dim lh-title" target="blank">Online - Published 2021</a>
                         <p className="white"> React Project </p>
                     </div>
                 </article>
-                <article class="bg-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
+                <article class="bg-dark-gray tc dib br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                     <div class="pv2 ph3">
                         <h1 class="f3 f2-ns f3-m tracked light-blue">PortoRequintado</h1>
                         {change === 'picture'
@@ -104,7 +104,7 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://portorequintado.netlify.app/" class="pointer light-blue link dim lh-title" target="blank">Published 2020</a>
+                        <a href="https://portorequintado.netlify.app/" class="pointer light-blue link dim lh-title" target="blank">Online - Published 2020</a>
                         <p className="white"> Website Project </p>
                     </div>
                 </article>
