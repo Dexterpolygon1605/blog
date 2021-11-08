@@ -75,7 +75,7 @@ class Projects extends Component {
                     }
 
                     <div class="pa3">
-                        <a href="https://smartbrainnl.herokuapp.com/" class="pointer light-blue link dim lh-title" target="blank">Published</a>
+                        <a href="https://dexterpolygon1605.github.io/robotfriends/" class="pointer light-blue link dim lh-title" target="blank">Published</a>
                         <p className="white"> React Project </p>
                     </div>
                 </article>
