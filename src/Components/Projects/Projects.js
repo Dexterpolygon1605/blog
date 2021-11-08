@@ -33,9 +33,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue ">SmartBrain</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
                         }
                     </div>
 
@@ -60,9 +60,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue">RobotFriends</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
                         }
                     </div>
 
@@ -85,9 +85,9 @@ class Projects extends Component {
                         <h1 class="f3 f2-ns f3-m tracked light-blue">PortoRequintado</h1>
                         {change === 'picture'
                             ?
-                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3">More details...</h1>
+                            <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5">More details...</h1>
                             :
-                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3">Open image...</h1>
+                            <h1 onClick={() => this.onContentChange('picture')} class="tc f6 white grow pointer ba br3 shadow-5">Open image...</h1>
                         }
                     </div>
 
