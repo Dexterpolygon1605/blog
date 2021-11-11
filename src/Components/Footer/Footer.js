@@ -12,8 +12,8 @@ const Footer = () => {
                             <input class="pa2 input-reset ba bg-transparent hover-bg-black white hover-white w-100" type="email" name="email-address" id="email-address" />
                         </div>
                         <div class="mv3">
-                            <label class="db fw6 lh-copy f6 white tl" for="password">Message:</label>
-                            <textarea id="comment" name="comment" rows="6" class="bg-transparent white db border-box hover-white w-100 measure ba b--white-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
+                            <label class="db fw6 lh-copy f6 white tl" for="message">Message:</label>
+                            <textarea id="message" name="message" rows="6" class="bg-transparent white db border-box hover-white w-100 measure ba b--white-20 pa2 br2 mb2" aria-describedby="message-desc"></textarea>
                         </div>
                     </fieldset>
                     <div class="">
