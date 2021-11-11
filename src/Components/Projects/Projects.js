@@ -31,7 +31,7 @@ class Projects extends Component {
                     <div className="f1 mb5 fw6 white"> Projects </div>
                     <article class="bg-dark-gray tc dit br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                         <div class="pv2 ph3">
-                            <h1 class="f3 f2-ns f3-m tracked light-blue ">SmartBrain</h1>
+                            <h1 class="f3 f2-ns f3-m tracked light-blue fw6">SmartBrain</h1>
                             {change === 'picture'
                                 ?
                                 <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5 pv1">More details...</h1>
@@ -59,7 +59,7 @@ class Projects extends Component {
                     </article>
                     <article class="bg-dark-gray tc dit br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                         <div class="pv2 ph3">
-                            <h1 class="f3 f2-ns f3-m tracked light-blue">RobotFriends</h1>
+                            <h1 class="f3 f2-ns f3-m tracked light-blue fw6">RobotFriends</h1>
                             {change === 'picture'
                                 ?
                                 <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5 pv1">More details...</h1>
@@ -85,7 +85,7 @@ class Projects extends Component {
                     </article>
                     <article class="bg-dark-gray tc dit br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                         <div class="pv2 ph3">
-                            <h1 class="f3 f2-ns f3-m tracked light-blue">PortoRequintado</h1>
+                            <h1 class="f3 f2-ns f3-m tracked light-blue fw6">PortoRequintado</h1>
                             {change === 'picture'
                                 ?
                                 <h1 onClick={() => this.onContentChange('details')} class="tc f6 white grow pointer ba br3 shadow-5 pv1">More details...</h1>

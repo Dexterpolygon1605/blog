@@ -515,8 +515,8 @@ class App extends Component {
       <div className="App">
         <Particles className='particles' options={particlesOptions} />
         <Navigation />
-        <Footer />
         <Banner />
+        <Footer />
       </div>
     );
   }

@@ -20,9 +20,9 @@ class Banner extends React.Component {
                         Here's where I showcase my projects
                     </h2>
                     <div>
-                        <p class="btnbanner pointer shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow mb6">
+                        <a href="https://drive.google.com/file/d/1d8ikkM73gMLK17Nzhltn8hY77pui5fXs/view?usp=sharing" class="btnbanner pointer shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow mb6">
                             Resume
-                        </p>
+                        </a>
                     </div>
                 </article>
                 <Skills />

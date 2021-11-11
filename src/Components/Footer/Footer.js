@@ -2,12 +2,25 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer class="num z-2 fixed white-80 pv0 pv0-l ph4 w-100 mt6">
-            <p class="f6">
-                <span href="mailto:nelsonlopescp2020@gmail.com" class="pointer tc">nelsonlopescp@gmail.com
-                <p href="tel:+351910480778" class="pointer link tc mt1">910480778</p>
-                </span>
-            </p>
+        <footer class="num z-2 white-80 pv0 pv0-l ph4 w-100 mt6">
+            <main class="pa4 black-80">
+                <form class="measure center netlify">
+                    <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+                        <legend class="f4 fw6 ph0 mh0 white">Sign In</legend>
+                        <div class="mt3">
+                            <label class="db fw6 lh-copy f6 white tl" for="email-address">Email:</label>
+                            <input class="pa2 input-reset ba bg-transparent hover-bg-black white hover-white w-100" type="email" name="email-address" id="email-address" />
+                        </div>
+                        <div class="mv3">
+                            <label class="db fw6 lh-copy f6 white tl" for="password">Message:</label>
+                            <textarea id="comment" name="comment" rows="6" class="bg-transparent white db border-box hover-white w-100 measure ba b--white-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="">
+                        <input class="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib white" type="submit" value="Submit" />
+                    </div>
+                </form>
+            </main>
         </footer>
     )
 }
