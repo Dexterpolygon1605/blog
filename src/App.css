@@ -27,3 +27,7 @@ nav{
 .num{
   background-color: #151514;
 }
+
+.btnproj:hover{
+  color: white;
+}

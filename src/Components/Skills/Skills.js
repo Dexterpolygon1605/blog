@@ -6,7 +6,7 @@ class Skills extends React.Component {
             <div className="white mt6 mt4-m mb6 w-100">
                 <div className="f1 mb5 fw6 mt6"> Skills </div>
                 <article class="dit tc center hidden ba w-20 h5 grow dim">
-                    <h1 class="f4 bg-near-black white mv0 pv2 ph3">Front - End</h1>
+                    <h1 class="f4 bg-dark-gray light-blue mv0 pv2 ph3">Front - End</h1>
                     <div class="pa3 bt">
                         <ul className="list tc f6 f5-ns lh-copy measure mv0 mr4">
                             <li>React</li>
@@ -17,7 +17,7 @@ class Skills extends React.Component {
                     </div>
                 </article>
                 <article class="dit tc center hidden ba w-20 h5 grow">
-                    <h1 class="f4 bg-near-black white mv0 pv2 ph3">Back - End</h1>
+                    <h1 class="f4 bg-dark-gray light-blue mv0 pv2 ph3">Back - End</h1>
                     <div class="pa3 bt">
                         <ul className="list tc f6 f5-ns lh-copy measure mv0 mr4">
                             <li>Node</li>
@@ -29,7 +29,7 @@ class Skills extends React.Component {
                     </div>
                 </article>
                 <article class="dit tc center hidden ba w-20 h5 mb6 grow">
-                    <h1 class="f4 bg-near-black white mv0 pv2 ph3">Tools</h1>
+                    <h1 class="f4 bg-dark-gray light-blue mv0 pv2 ph3">Tools</h1>
                     <div class="pa3 bt">
                         <ul className="list tc f6 f5-ns lh-copy measure mv0 mr4">
                             <li>VsCode</li>
