@@ -6,3 +6,8 @@ nav{
     top: 0;
     background: linear-gradient(black, transparent);
 }
+
+.btnav:hover{
+    background-color: white;
+    color: black;
+}

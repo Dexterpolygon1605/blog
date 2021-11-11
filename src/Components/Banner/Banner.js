@@ -1,14 +1,14 @@
 import React from "react";
-import './Banner.css';
+import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills'
 import Profile from './perfil.png';
-
+import './Banner.css'
 class Banner extends React.Component {
     render() {
-        const { onRouteChange } = this.props;
         return (
-            <div className="banner absolute w-50 br4 mt4-m">
+            <div className="mt6 mt4-m mb6">
                 <article class="mw7 center ph3 ph3-ns tc br2 pv5 white mt0">
-                    <img className="grow w-100 w-40-l w-40-m" src={Profile} alt="Profile" />
+                    <img className="grow w-40 glow" src={Profile} alt="Profile" />
                     <h1 class="fw6 f4 f1-ns f5-m lh-title mt3 mb3">
                         Hi! Im Nelson Lopes,
                     </h1>
@@ -16,11 +16,13 @@ class Banner extends React.Component {
                         Here's where I showcase my projects
                     </h2>
                     <div>
-                        <p onClick={() => onRouteChange('projects')} class="pointer shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow">
-                            View my Projects
+                        <p class="btnbanner pointer shadow-5 f5 f4-ns f5-m br-pill no-underline white ba b--white grow pv2 ph4 dib ml3 ml3-ns mr2 mr3-l ml0-m grow mb6">
+                            Resume
                         </p>
                     </div>
                 </article>
+                <Skills />
+                <Projects />
             </div>
         )
     }
