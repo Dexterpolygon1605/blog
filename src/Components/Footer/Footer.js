@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer class="num z-2 white-80 pv0 pv0-l ph4 w-100 mt6">
             <main class="pa4 black-80">
-                <form class="measure center netlify">
+                <form class="measure center" method="POST" data-netlify="true">
                     <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
                         <legend class="f4 fw6 ph0 mh0 white">Sign In</legend>
                         <div class="mt3">
