@@ -73,3 +73,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.bgbash{
+  background: linear-gradient(0.25turn, rgb(71, 201, 245), rgb(235, 112, 112), rgb(99, 238, 99), rgb(230, 230, 123));;
+}

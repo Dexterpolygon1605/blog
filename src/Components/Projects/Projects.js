@@ -52,8 +52,8 @@ class Projects extends Component {
                         }
 
                         <div class="pa3">
-                            <a href="https://smartbrainnl.herokuapp.com/" class="btnproj pointer mr2-ns light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit mb0-ns mb2" target="blank">See Live - Published 2021</a>
-                            <a href="https://github.com/Dexterpolygon1605/smartbrain" class="btnproj pointer light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit" target="blank">Source code</a>
+                            <a href="https://smartbrainnl.herokuapp.com/" class="btnproj pointer mr2-ns light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit mb0-ns mb2 grow" target="blank">See Live - Published 2021</a>
+                            <a href="https://github.com/Dexterpolygon1605/smartbrain" class="btnproj pointer light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit grow" target="blank">Source code</a>
                             <p className="white fw6"> React Project </p>
                         </div>
                     </article>
@@ -78,8 +78,8 @@ class Projects extends Component {
                         }
 
                         <div class="pa3">
-                            <a href="https://dexterpolygon1605.github.io/robotfriends/" class="btnproj pointer mr2 light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit mb0-ns mb2" target="blank">See Live - Published 2021</a>
-                            <a href="https://github.com/Dexterpolygon1605/robotfriends" class="btnproj pointer light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit" target="blank">Source code</a>
+                            <a href="https://dexterpolygon1605.github.io/robotfriends/" class="btnproj pointer mr2 light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit mb0-ns mb2 grow" target="blank">See Live - Published 2021</a>
+                            <a href="https://github.com/Dexterpolygon1605/robotfriends" class="btnproj pointer light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit grow" target="blank">Source code</a>
                             <p className="white fw6"> React Project </p>
                         </div>
                     </article>
@@ -107,7 +107,7 @@ class Projects extends Component {
                         }
 
                         <div class="pa3">
-                            <a href="https://portorequintado.netlify.app/" class="btnproj pointer mr2 light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit" target="blank">See Live - Published 2021</a>
+                            <a href="https://portorequintado.netlify.app/" class="btnproj pointer mr2 light-blue link dim lh-title br-pill ba pv2 ph2 ph3-ns dit grow" target="blank">See Live - Published 2021</a>
                             <p className="white fw6"> Website Project </p>
                         </div>
                     </article>
