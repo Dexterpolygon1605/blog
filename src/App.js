@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './Components/Navigation/Navigation';
 import Banner from './Components/Banner/Banner';
 import Footer from './Components/Footer/Footer';
+import Modal from './Components/Modal/Modal';
 import Particles from "react-tsparticles";
 import './App.css';
 
@@ -529,6 +530,7 @@ class App extends Component {
       <div className="App">
         <Particles className='particles' options={particlesOptions} />
         <Navigation />
+        <Modal />
         <Banner />
         <Footer />
       </div>

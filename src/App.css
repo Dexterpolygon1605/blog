@@ -65,3 +65,11 @@ nav{
   transform: translateY(0px);
   opacity: 1;
 }
+
+.modal{
+  z-index: 3;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,13 +1,39 @@
-.navb{
+.navb {
     font-family: 'Red Hat Mono', monospace;
 }
 
-nav{
+nav {
     top: 0;
     background: linear-gradient(black, transparent);
 }
 
-.btnav:hover{
-    background-color: white;
-    color: gray;
+.btnav {
+    text-align: center;
+    position: relative;
+    transition: all .55s;
 }
+
+.btnav:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    transition: all .25s;
+}
+
+.btnav:hover {
+    border-color: white;
+    color: black;
+}
+
+.btnav:hover:after {
+    width: 100%;
+}
+
+.btnav span {
+    position: relative;
+    z-index: 2;
+  }
