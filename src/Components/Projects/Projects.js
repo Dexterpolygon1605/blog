@@ -27,7 +27,7 @@ class Projects extends Component {
     render() {
         const { inImage, change } = this.state;
         return (
-                <div inImage={inImage} className="tc">
+                <div inImage={inImage} className="tc reveal">
                     <div className="f1 mb5 fw6 white"> Projects </div>
                     <article class="bg-dark-gray tc dit br3 pa0 ma2 bw2 shadow-5 mw5 mw6-ns mw5-m">
                         <div class="pv2 ph3">

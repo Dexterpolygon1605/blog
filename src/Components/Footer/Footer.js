@@ -12,9 +12,7 @@ const Footer = () => {
     window.onload = function () {
         document.getElementById('template_6xccg1p').addEventListener('submit', function (event) {
             event.preventDefault();
-            // generate a five digit number for the contact_number variable
             this.contact_number.value = Math.random() * 100000 | 0;
-            // these IDs from the previous steps
             emailjs.sendForm('service_2kdxwgk', 'template_6xccg1p', this)
                 .then(function () {
                     console.log('SUCCESS!');
@@ -28,12 +26,12 @@ const Footer = () => {
 
 
     return (
-        <footer class="num z-2 white-80 pv0 pv0-l ph4 w-100 mt6">
+        <footer class="num z-2 white-80 pv0 pv0-l ph4 w-100 mt6 reveal">
             <main class="pa4 black-80">
                 <form id="template_6xccg1p" class="measure center">
                     <input type="hidden" name="contact_number" />
                     <fieldset id="sign_up" class ="ba b--transparent ph0 mh0">
-                    <legend class ="f4 fw6 ph0 mh0 white">Sign In</legend>
+                    <legend class ="f4 fw6 ph0 mh0 white">Send me your feedback!</legend>
                     <div class ="mt3">
                     <label class ="db fw6 lh-copy f6 white tl" htmlfor="email-address">Email: </label>
                     <input class ="pa2 input-reset ba bg-transparent hover-bg-black white hover-white w-100" type ="email" name="user_email" id="email-address" />

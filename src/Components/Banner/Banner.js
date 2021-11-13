@@ -2,13 +2,11 @@ import React from "react";
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills'
 import Profile from './perfil.png';
-import './Banner.css'
+import './Banner.css';
 
 
 class Banner extends React.Component {
-
     render() {
-
         return (
             <div className="mt6 mt4-m mb6">
                 <article class="mw7 center ph3 ph3-ns tc br2 pv5 white mt0">

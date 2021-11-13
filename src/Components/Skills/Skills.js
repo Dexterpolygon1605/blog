@@ -3,7 +3,7 @@ import React from "react";
 class Skills extends React.Component {
     render() {
         return (
-            <div className="white mt6 mt4-m mb6 w-100">
+            <div className="white mt6 mt4-m mb6 w-100 reveal">
                 <div className="f1 mb5 fw6 mt6"> Skills </div>
                 <article class="dit tc center hidden ba w-20 h5 grow">
                     <h1 class="f4 bg-dark-gray light-blue mv0 pv2 ph3">Front - End</h1>
